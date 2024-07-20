@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   },
   vuetify: {
     moduleOptions: {
+      // comment this line to check drawer behavior
       ssrClientHints: {
         viewportSize: true,
       }
