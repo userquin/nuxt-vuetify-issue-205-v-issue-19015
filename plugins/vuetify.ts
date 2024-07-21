@@ -1,5 +1,5 @@
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.hook('vuetify:ready', (vuetify) => {
-    console.log(vuetify)
+  nuxtApp.hook('vuetify:before-create', ({ vuetifyOptions}) => {
+    console.log(vuetifyOptions.ssr)
   })
 });
