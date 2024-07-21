@@ -12,7 +12,7 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.67",
     "@unocss/nuxt": "^0.61.5",
-    "vuetify-nuxt-module": "^0.16.0",
+    "vuetify-nuxt-module": "^0.16.1",
     "nuxt": "^3.12.4",
     "vite-plugin-vuetify": "^2.0.1",
     "vue": "^3.4.33",
